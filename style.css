@@ -238,13 +238,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
   }
 
   .card ul {
-    list-style-position: inside;
-    /* padding-left: 10px; */
+    list-style-position: outside;
+    padding-left: 10px;
   }
 
   .tariffs_constructor {
