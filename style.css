@@ -188,15 +188,20 @@ body {
   width: 50%;
   list-style-position: outside;
   padding-left: 15px;
+  line-height: 1.5;
 }
 
 .services_img {
   width: 50%;
+  height: 130px;
+  border-radius: 7px;
+  overflow: hidden;
 }
 
 .services_img img {
   width: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* glass effect */
