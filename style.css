@@ -106,7 +106,6 @@ body {
 }
 
 .tariffs_title {
-  /* height: 40px; */
   background-color: #ddaa80;
   border: 1px solid transparent;
   border-radius: 7px;
@@ -233,6 +232,19 @@ body {
 
   .card {
     width: 100%;
+  }
+
+  .card ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card ul {
+    list-style-position: inside;
+    /* padding-left: 10px; */
   }
 
   .tariffs_constructor {
